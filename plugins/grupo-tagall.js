@@ -4,7 +4,7 @@ global.dfail('admin', m, conn)
 throw false
 }
 
-if (command == 'tagall' || command == 'invocar' || command == 'todos' || command == 'invocación' || command == 'invocacion') {
+if (command == 'внимание' || command == 'invocar' || command == 'todos' || command == 'invocación' || command == 'invocacion') {
 let pesan = args.join` `
 let oi = `ღ ${lenguajeGB['smsAddB5']()} ${pesan}`
 let teks = `╭━〔 *${lenguajeGB['smstagaa']()}* 〕━⬣\n\n${oi}\n\n`
