@@ -109,8 +109,8 @@ let str = `
 ┊დ *Включить атиссылка2*
 ┊დ *Выключить антиссылка2*
 ┊დ *Снести*
-┊დ **
-┊დ **
+┊დ *Внимание*
+┊დ *Вызов*
 ╰┄┄┄┄〔 *𓃠 ${vs}* 〕┄┄┄┄⊱
 `.trim()
 conn.sendFile(m.chat, pp, 'lp.jpg', str, m, false, {contextInfo: {mentionedJid}})
