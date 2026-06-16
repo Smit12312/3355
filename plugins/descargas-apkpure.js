@@ -47,6 +47,6 @@ handler.limit = false
 }
 
 handler.command = /^(apkp|apkpure|apkdl)$/i
-handler.register = true
+
 handler.limit = 2
 export default handler

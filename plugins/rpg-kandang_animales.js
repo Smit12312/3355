@@ -48,7 +48,7 @@ await conn.reply(m.chat, ndy, fkontak)
 handler.help = ['kandang']
 handler.tags = ['rpg']
 handler.command = /^(kandang|animales|animals)$/i
-handler.register = true
+
 export default handler
 
 const more = String.fromCharCode(8206)

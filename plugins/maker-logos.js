@@ -54,7 +54,7 @@ handler.help = ['logos']
 handler.tags = ['nulis']
 handler.command = /^(logo|logos|logos2)$/i
 handler.limit = 1
-handler.register = true
+
 export default handler
 
 var effects = [

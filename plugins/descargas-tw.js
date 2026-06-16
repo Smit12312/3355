@@ -44,7 +44,7 @@ handler.limit = false
 handler.command = /^((dl)?tw(it(ter(dl|x)?)?)?|x|t?tx)$/i
 //handler.limit = 3
 //handler.level = 3
-handler.register = true
+
 
 export default handler
 

@@ -319,7 +319,7 @@ console.log(e)
 }
 
 handler.command = /^(menu|menú|memu|memú|help|2help|commands|commandos)$/i
-//handler.register = true
+//
 export default handler
 
 const more = String.fromCharCode(8206)
@@ -462,7 +462,7 @@ console.log(`❗❗ ${lenguajeGB['smsMensError2']()} ${usedPrefix + command} ❗
 console.log(e)	
 }}
 handler.command = /^(menu|menú|memu|memú|help|info|comandos|2help|menu1.2|ayuda|commands|commandos|m|\?)$/i
-//handler.register = true
+//
 handler.exp = 50
 export default handler
 

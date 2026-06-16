@@ -7,5 +7,5 @@ await conn.fakeReply(m.chat, sn, '0@s.whatsapp.net', '⬇️ *ESE ES SU NUMERO D
 handler.help = ['myns']
 handler.tags = ['xp']
 handler.command = /^(myns|ceksn)$/i
-handler.register = true
+
 export default handler

@@ -39,6 +39,6 @@ handler.limit = false
 }
 }
 handler.command = /^(thread|threads|threaddl)$/i
-handler.register = true
+
 export default handler
 const delay = (time) => new Promise((res) => setTimeout(res, time))

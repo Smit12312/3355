@@ -118,7 +118,7 @@ m.reply('❌ *Incorrecto!* Intenta de nuevo.')
 handler.help = ['acertijo', 'pelicula', 'trivia']
 handler.tags = ['game']
 handler.command = /^(acertijo|acert|adivinanza|tekateki|advpe|adv|peliculas|pelicula|trivia|triviador)$/i
-handler.register = true
+
 
 export default handler
 

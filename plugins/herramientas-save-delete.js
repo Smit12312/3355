@@ -139,5 +139,5 @@ throw `${lenguajeGB['smsAvisoMG']()}𝙎𝙊𝙇𝙊 𝙎𝙀 𝙋𝙐𝙀𝘿�
 handler.help = ['delcmd']
 handler.tags = ['tools']
 handler.command = /^(delsave|delcmd)$/i
-handler.register = true
+
 export default handler

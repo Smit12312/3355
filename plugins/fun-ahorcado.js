@@ -123,6 +123,6 @@ conn.reply(m.chat, '⚠️ *Solo puedes enviar una letra a la vez.*', m)
 handler.help = ['ahorcado']
 handler.tags = ['game']
 handler.command = ['ahorcado']
-handler.register = true
+
 
 export default handler

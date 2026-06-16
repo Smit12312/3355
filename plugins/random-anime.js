@@ -470,7 +470,7 @@ handler.command = handler.help = [
 'clima3'
 ]
 handler.tags = ['randow']
-handler.register = true
+
 handler.limit = 1
 export default handler
 

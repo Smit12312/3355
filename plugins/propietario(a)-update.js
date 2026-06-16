@@ -42,6 +42,6 @@ await m.reply(`${fg}`)
 }
 }
 }
-handler.command = /^(update|actualizar|gitpull)$/i
+handler.command = /^(обновить|actualizar|gitpull)$/i
 handler.rowner = true
 export default handler

@@ -66,7 +66,7 @@ user.lastclaim = new Date() * 1
 }
 handler.command = ['navidad', 'navidad2', 'christmas']
 handler.level = 3
-handler.register = true
+
 export default handler
 
 global.messagesNav = [

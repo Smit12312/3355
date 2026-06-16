@@ -261,5 +261,5 @@ miEstado = 0
 }
 }
 handler.command = ['miestado']
-handler.register = true
+
 export default handler

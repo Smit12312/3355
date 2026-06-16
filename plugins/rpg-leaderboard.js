@@ -74,7 +74,7 @@ await m.reply(text, null, {mentions: conn.parseMention(text)})
 handler.help = ['top']
 handler.tags = ['xp']
 handler.command = ['leaderboard', 'lb', 'top']
-handler.register = true
+
 handler.fail = null
 handler.exp = 0
 

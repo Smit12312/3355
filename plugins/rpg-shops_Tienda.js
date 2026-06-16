@@ -340,7 +340,7 @@ handler.help = ['buy', 'sell'].map((v) => v + ' [item] [count]')
 handler.tags = ['rpg']
 handler.command = /^(buy|sell)$/i
 handler.disabled = false
-handler.register = true
+
 
 export default handler
 

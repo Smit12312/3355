@@ -180,5 +180,5 @@ response += '*\`🛠️ 𝘾𝙊𝙈𝘼𝙉𝘿𝙊𝙎 𝙇𝙊𝘾𝘼𝙇�
 handler.help = ['listcmd', 'cmdlist']
 handler.tags = ['tools']
 handler.command = /^(listas|listcmd|cmdlist|listasglobal|globalcmd|cmdglobal)$/i
-handler.register = true
+
 export default handler

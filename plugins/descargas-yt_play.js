@@ -188,7 +188,7 @@ delete tempStorage[m.sender]
 }
 }
 handler.command = /^(play|play2)$/i
-handler.register = true
+
 export default handler
 
 async function search(query, options = {}) {
@@ -567,7 +567,7 @@ console.log(e2);
 }
 handler.command = /^(play[2-4]?|audio|video|playdoc2?)$/i
 //handler.limit = 2
-handler.register = true 
+ 
 export default handler
 
 async function search(query, options = {}) {

@@ -33,7 +33,7 @@ handler.command = /^(wiki|wikipedia)$/i
 handler.exp = 40
 handler.level = 3
 handler.limit = 1
-handler.register = true
+
 export default handler
 
 async function wikipedia(querry) {

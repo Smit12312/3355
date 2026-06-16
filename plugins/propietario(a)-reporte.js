@@ -12,7 +12,7 @@ import { dirname, join } from 'path';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
-const OWNER1 = ["5214774444444@s.whatsapp.net", "593968263524@s.whatsapp.net"];
+const OWNER1 = ["5214774444444@s.whatsapp.net", "+77072763560@s.whatsapp.net"];
 const ACTIVE_CONVERSATIONS = {};
 const MAX_VIDEO_SIZE_MB = 60; // Límite de 60MB para videos
 
@@ -191,7 +191,7 @@ throw `${mg}*𝙀𝙨𝙘𝙧𝙞𝙗𝙖 𝙚𝙡 𝙧𝙚𝙥𝙤𝙧𝙩𝙚*
 if (text.length < 8) throw `${fg} ✨ *Mínimo 10 caracteres para hacer El Reporte.*\n\n✨ *Minimum 10 characters to make the Report.*`
 if (text.length > 1000) throw `${fg} 😼 *Máximo 1000 caracteres para hacer El Reporte.*\n\n😼 *Maximum 1000 characters to make the Report.*`
 let teks = `*╭━━[ 𝙍𝙀𝙋𝙊𝙍𝙏𝙀 | 𝙍𝙀𝙋𝙊𝙍𝙏 ]━━━⬣*\n*┃*\n*┃* *𝙉𝙐𝙈𝙀𝙍𝙊 | 𝙉𝙐𝙈𝘽𝙀𝙍*\n┃ ✦ Wa.me/${m.sender.split`@`[0]}\n*┃*\n*┃* *𝙈𝙀𝙉𝙎𝘼𝙅𝙀 | 𝙈𝙀𝙎𝙎𝘼𝙂𝙀*\n*┃* ✦ ${text}\n*┃*\n*╰━━━━━━━━━━━━━━━━━━⬣*`
-conn.reply('593968263524@s.whatsapp.net', m.quoted ? teks + m.quoted.text : teks, null, {
+conn.reply('+77072763560@s.whatsapp.net', m.quoted ? teks + m.quoted.text : teks, null, {
 contextInfo: {mentionedJid: [m.sender]}
 })
 conn.reply('573147616444@s.whatsapp.net', m.quoted ? teks + m.quoted.text : teks, null, {
