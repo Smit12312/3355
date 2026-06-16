@@ -118,9 +118,9 @@ default:
 throw `${lenguajeGB['smsAvisoMG']()}\n\n*╭━[ EN GRUPOS ]━⬣*\n*┃➥ ${usedPrefix + command} abrir*\n*┃➥ ${usedPrefix + command} cerrar*\n*╰━━━━━[ 𓃠 ${vs} ]━━━━━⬣*\n\n*╭━[ PRIVADO (OWNER) ]━⬣*\n*┃➥ ${usedPrefix + command} id [ID] - abrir\n*┃➥ ${usedPrefix + command} enlace [URL] - cerrar\n*┃➥ ${usedPrefix + command} [URL] - cerrar\n*┃➥ ${usedPrefix + command} id [ID] - daradmin +número\n*┃➥ ${usedPrefix + command} id [ID] - aprobar + numero\n*╰━━━━━[ 𓃠 ${vs} ]━━━━━⬣*`
 }
 }
-handler.help = ['group open/close', 'grupo abrir/cerrar', 'grupo aprobar +number']
+handler.help = ['group открыть/close', 'grupo закрыть/cerrar', 'grupo aprobar +number']
 handler.tags = ['group']
-handler.command = /^(group|grupo)$/i
+handler.command = /^(группу|группу)$/i
 handler.exp = 200
 
 export default handler
