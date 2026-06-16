@@ -11,32 +11,9 @@ let toUser = `${m.sender.split('@')[0]}`
 let aa = toUser + '@s.whatsapp.net'
 let titulo = [
 lenguajeGB.smsParaAdmins() + ' ' + `${m.isGroup ? (chat.welcome ? '✅' : '❌') : lenguajeGB.smsNoGg()}`,
-lenguajeGB.smsParaAdmins() + ' ' + `${m.isGroup ? (chat.detect ? '✅' : '❌') : lenguajeGB.smsNoGg()}`,
-lenguajeGB.smsParaAdYOw() + ' ' + `${m.isGroup ? (chat.autolevelup ? '✅' : '❌') : lenguajeGB.smsNoGg()}`,
 lenguajeGB.smsParaOw() + ' ' + `${bot.restrict ? '✅' : '❌'}`,
-lenguajeGB.smsParaOw() + ' ' + `${bot.antiCall ? '✅' : '❌'}`,
-lenguajeGB.smsParaOw() + ' ' + `${bot.antiSpam ? '✅' : '❌'}`,
-lenguajeGB.smsParaOw() + ' ' + `${global.opts['self'] ? '❌' : '✅'}`,
-lenguajeGB.smsParaAdmins() + ' ' + `${m.isGroup ? (chat.modoadmin ? '✅' : '❌') : lenguajeGB.smsNoGg()}`,
-lenguajeGB.smsParaOw() + ' ' + `${global.opts['autoread'] ? '✅' : '❌'}`,
-lenguajeGB.smsParaOw() + ' ' + `${bot.temporal ? '✅' : '❌'}`,
-lenguajeGB.smsParaAdmins() + ' ' + `${m.isGroup ? (chat.stickers ? '✅' : '❌') : lenguajeGB.smsNoGg()}`,
-lenguajeGB.smsParaAdmins() + ' ' + `${m.isGroup ? (chat.autosticker ? '✅' : '❌') : lenguajeGB.smsNoGg()}`,
-lenguajeGB.smsParaAdYOw() + ' ' + `${m.isGroup ? (chat.reaction ? '✅' : '❌') : lenguajeGB.smsNoGg()}`,
-lenguajeGB.smsParaAdYOw() + ' ' + `${m.isGroup ? (chat.audios ? '✅' : '❌') : lenguajeGB.smsNoGg()}`,
-lenguajeGB.smsParaAdYOw() + ' ' + `${m.isGroup ? (chat.modohorny ? '✅' : '❌') : lenguajeGB.smsNoGg()}`,
-lenguajeGB.smsParaAdmins() + ' ' + `${m.isGroup ? (chat.antitoxic ? '✅' : '❌') : lenguajeGB.smsNoGg()}`,
-lenguajeGB.smsParaAdYOw() + ' ' + `${m.isGroup ? (chat.antiver ? '✅' : '❌') : lenguajeGB.smsNoGg()}`,
-lenguajeGB.smsParaAdYOw() + ' ' + `${m.isGroup ? (chat.delete ? '✅' : '❌') : lenguajeGB.smsNoGg()}`,
-lenguajeGB.smsParaAdmins() + ' ' + `${m.isGroup ? (chat.antifake ? '✅' : '❌') : lenguajeGB.smsNoGg()}`,
 lenguajeGB.smsParaAdmins() + ' ' + `${m.isGroup ? (chat.antiLink ? '✅' : '❌') : lenguajeGB.smsNoGg()}`,
 lenguajeGB.smsParaAdmins() + ' ' + `${m.isGroup ? (chat.antiLink2 ? '✅' : '❌') : lenguajeGB.smsNoGg()}`,
-lenguajeGB.smsParaAdmins() + ' ' + `${m.isGroup ? (chat.antiTiktok ? '✅' : '❌') : lenguajeGB.smsNoGg()}`,
-lenguajeGB.smsParaAdmins() + ' ' + `${m.isGroup ? (chat.antiYoutube ? '✅' : '❌') : lenguajeGB.smsNoGg()}`,
-lenguajeGB.smsParaAdmins() + ' ' + `${m.isGroup ? (chat.antiTelegram ? '✅' : '❌') : lenguajeGB.smsNoGg()}`,
-lenguajeGB.smsParaAdmins() + ' ' + `${m.isGroup ? (chat.antiFacebook ? '✅' : '❌') : lenguajeGB.smsNoGg()}`,
-lenguajeGB.smsParaAdmins() + ' ' + `${m.isGroup ? (chat.antiInstagram ? '✅' : '❌') : lenguajeGB.smsNoGg()}`,
-lenguajeGB.smsParaAdmins() + ' ' + `${m.isGroup ? (chat.antiTwitter ? '✅' : '❌') : lenguajeGB.smsNoGg()}`,
 lenguajeGB.smsParaOw() + ' ' + `${global.opts['pconly'] ? '✅' : '❌'}`,
 lenguajeGB.smsParaOw() + ' ' + `${global.opts['gconly'] ? '✅' : '❌'}`
 ]
@@ -922,9 +899,9 @@ fkontak,
 ღ *_${lenguajeGB['smsMens2']()}_* *|* ${isEnable ? lenguajeGB.smsEncender() : lenguajeGB.smsApagar()} 
 ღ *_${lenguajeGB['smsMens3']()}_* *|* ${isAll ? lenguajeGB.smsMens4() : isUser ? '' : lenguajeGB.smsMens5()}`, wm, null, [[`${isEnable ? lenguajeGB.smsApagar() : lenguajeGB.smsEncender()}`, `${isEnable ? `.off ${type}` : `.on ${type}`}`], [lenguajeGB.smsConMenu(), '.menu']], null, null, fkontak)*/
 }
-handler.help = ['en', 'dis'].map((v) => v + 'выключить <option>')
+handler.help = ['вк', 'вык'].map((v) => v + 'лючить <option>')
 handler.tags = ['group', 'owner']
-handler.command = /^((вк|вык)лючить|(tru|fals)e|(turn)?o(n|ff)|[01])$/i
+handler.command = /^((включить|выключить)лючить|(tru|fals)e|(turn)?o(n|ff)|[01])$/i
 export default handler
 const more = String.fromCharCode(8206)
 const readMore = more.repeat(4001)
