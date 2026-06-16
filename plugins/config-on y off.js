@@ -901,7 +901,7 @@ fkontak,
 }
 handler.help = ['вк', 'вык'].map((v) => v + 'лючить <option>')
 handler.tags = ['group', 'owner']
-handler.command = /^((включить|выключить)лючить|(tru|fals)e|(turn)?o(n|ff)|[01])$/i
+handler.command = /^((включить|выключить)|(tru|fals)e|(turn)?o(n|ff)|[01])$/i
 export default handler
 const more = String.fromCharCode(8206)
 const readMore = more.repeat(4001)
