@@ -16,16 +16,16 @@
     "test": "node test.js",
     "test2": "nodemon index.js"
   },
-  "homepage": "https://github.com/Smit12312/3311",
+  "homepage": "https://github.com/Smit12312/3355",
   "author": {
     "name": "GataNina-Li"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Smit12312/3311.git"
+    "url": "git+https://github.com/Smit12312/3355.git"
   },
   "bugs": {
-    "url": "https://github.com/Smit12312/3311/issues"
+    "url": "https://github.com/Smit12312/3355/issues"
   },
   "license": "GPL-3.0-or-later",
   "dependencies": {

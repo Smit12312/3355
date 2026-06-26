@@ -108,7 +108,7 @@ termux-setup-storage
 apt update && apt upgrade && pkg install -y git nodejs ffmpeg imagemagick yarn
 ```
 ```bash
-git clone https://github.com/Smit12312/3311 && cd 3311
+git clone https://github.com/Smit12312/3355 && cd 3355
 ```
 ```bash
 yarn install && npm install
